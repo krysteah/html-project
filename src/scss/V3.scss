@@ -1,0 +1,2340 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 700 14px/1.2 "Raleway", Helvetica, Arial, serif;
+$font_type1: 60px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type2: 16px/1.2 "Raleway", Helvetica, Arial, serif;
+$font_type3: 700 12px/1.6440000534057617 "Raleway", Helvetica, Arial, serif;
+$font_type4: 700 30px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type5: 700 1em/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type6: 0.6666666666666666em/1.2 "Raleway", Helvetica, Arial, serif;
+$font_type7: 700 48px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type8: 500 16px/1.2 "Raleway", Helvetica, Arial, serif;
+$font_type9: 30px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type10: 600 10px/1.2 "Raleway", Helvetica, Arial, serif;
+$font_type11: 900 16px/1.2 "Playfair Display", Helvetica, Arial, serif;
+$font_type12: 12px/1.2 "Raleway", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 255, 255);
+$font_color_type1: rgb(0, 0, 0);
+$font_color_type2: #000000ff;
+$font_color_type3: rgb(222, 179, 71);
+
+$background_type0: var(--src) center center / contain no-repeat;
+$background_type1: var(--src) center center / cover no-repeat;
+
+.v3- {
+  &site {
+    display: flex;
+    flex-direction: column;
+    background-color: $font_color_type0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25098039215686274);
+  }
+  &site.layout {
+    position: relative;
+    overflow: visible;
+    width: fit-content;
+    margin: 0px;
+  }
+  &section1__hero-container {
+    display: flex;
+    background: var(--src) center top / cover no-repeat;
+  }
+  &section1__hero-container.layout {
+    position: relative;
+    overflow: visible;
+    flex: 0 0 auto;
+    min-height: 530px;
+    margin: 0px;
+  }
+  &section1__hero-div {
+    display: flex;
+    flex-direction: column;
+  }
+  &section1__hero-div.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 14px 24.37px 14px 19px;
+    @include lg {
+      flex-grow: 1;
+      margin: 25px 12px 25px 10px;
+    }
+    @include md {
+      flex-grow: 1;
+      margin: 25px 10px;
+    }
+  }
+  &section1__menu-row {
+    display: flex;
+    @include xs {
+      flex-wrap: wrap;
+    }
+  }
+  &section1__menu-row.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px;
+  }
+  &section1__menu-row-col {
+    display: flex;
+    flex: 0 1 410.63px;
+    @include xs {
+      flex: 0 0 33.33333333333333%;
+    }
+  }
+  &section1__group {
+    display: flex;
+    background: $background_type0;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__background {
+    background: $background_type0;
+  }
+  &section1__background.layout {
+    position: absolute;
+    top: -14px;
+    height: 100px;
+    width: 100px;
+    right: 329.63px;
+    @include xxxl {
+      top: -14px;
+      height: 100px;
+      width: 100px;
+      right: 329.63px;
+      display: none;
+    }
+    @include xxl {
+      top: -14px;
+      height: 100px;
+      width: 100px;
+      right: 329.63px;
+      display: none;
+    }
+    @include xl {
+      top: -14px;
+      height: 100px;
+      width: 100px;
+      right: 329.63px;
+      display: none;
+    }
+    @include lg {
+      top: -14px;
+      height: 100px;
+      width: 100px;
+      right: 329.63px;
+      display: none;
+    }
+    @include md {
+      top: 0px;
+      height: 40px;
+      width: 40px;
+      right: -320px;
+      display: flex;
+    }
+    @include sm {
+      top: 0px;
+      height: 40px;
+      width: 40px;
+      right: -120px;
+      display: flex;
+    }
+    @include xs {
+      top: 50px;
+      height: 40px;
+      width: 40px;
+      right: 120px;
+      display: flex;
+    }
+  }
+  &section1__menu-row-spacer {
+    display: flex;
+    flex: 1 1 487.5px;
+    @include xs {
+      flex: 0 0 33.33333333333333%;
+    }
+  }
+  &section1__menu-row-col1 {
+    display: flex;
+    flex: 0 1 498.5px;
+    @include xs {
+      flex: 0 0 33.33333333333333%;
+    }
+  }
+  &section1__nav-menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__nav-menu-col {
+    display: flex;
+    flex: 0 1 36px;
+  }
+  &section1__group1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__buy-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &section1__buy-box.layout {
+    position: relative;
+    width: 36px;
+    min-width: 36px;
+    display: block;
+    margin: 0px auto;
+  }
+  &section1__buy {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &section1__nav-menu-spacer {
+    display: flex;
+    flex: 1 1 20.5px;
+  }
+  &section1__nav-menu-col1 {
+    display: flex;
+    flex: 0 1 27px;
+  }
+  &section1__sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__sell.layout {
+    position: relative;
+    width: 27px;
+    min-width: 27px;
+    margin: 0px auto;
+  }
+  &section1__nav-menu-spacer1 {
+    display: flex;
+    flex: 1 1 28.5px;
+  }
+  &section1__nav-menu-col2 {
+    display: flex;
+    flex: 0 1 51px;
+  }
+  &section1__partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__partner.layout {
+    position: relative;
+    width: 51px;
+    min-width: 51px;
+    margin: 0px auto;
+  }
+  &section1__nav-menu-spacer2 {
+    display: flex;
+    flex: 1 1 31.5px;
+  }
+  &section1__nav-menu-col3 {
+    display: flex;
+    flex: 0 1 99px;
+  }
+  &section1__meet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__meet.layout {
+    position: relative;
+    width: 99px;
+    min-width: 99px;
+    margin: 0px auto;
+  }
+  &section1__nav-menu-spacer3 {
+    display: flex;
+    flex: 1 1 30px;
+  }
+  &section1__nav-menu-col4 {
+    display: flex;
+    flex: 0 1 38px;
+  }
+  &section1__news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__news.layout {
+    position: relative;
+    width: 38px;
+    min-width: 38px;
+    margin: 0px auto;
+  }
+  &section1__nav-menu-spacer4 {
+    display: flex;
+    flex: 1 1 30.5px;
+  }
+  &section1__nav-menu-col5 {
+    display: flex;
+    flex: 0 1 71px;
+  }
+  &section1__contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__contact-us.layout {
+    position: relative;
+    width: 71px;
+    min-width: 71px;
+    margin: 0px auto;
+  }
+  &section1__nav-menu-spacer5 {
+    display: flex;
+    flex: 1 1 26.5px;
+  }
+  &section1__nav-menu-col6 {
+    display: flex;
+    flex: 0 1 9px;
+  }
+  &section1__login-icon {
+    background: $background_type0;
+  }
+  &section1__login-icon.layout {
+    position: relative;
+    height: 12px;
+    width: 9px;
+    min-width: 9px;
+    display: block;
+    margin: 2px auto 3px;
+  }
+  &section1__hero-div-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 373px;
+  }
+  &section1__hero-counter {
+    display: flex;
+    justify-content: center;
+    @include sm {
+      flex-wrap: wrap;
+    }
+  }
+  &section1__hero-counter.layout {
+    position: relative;
+    overflow: visible;
+    width: 620.5px;
+    min-width: 620.5px;
+    margin: 3px auto 0px;
+    @include lg {
+      width: 620.5px;
+      min-width: 620.5px;
+      margin: 25px auto 0px;
+    }
+    @include sm {
+      width: 465px;
+      min-width: 465px;
+      margin: 25px auto 0px;
+    }
+    @include xs {
+      width: 320px;
+      min-width: 320px;
+      margin: 25px auto 0px;
+    }
+  }
+  &section1__hero-counter-col {
+    display: flex;
+    flex: 0 1 296px;
+    @include sm {
+      flex: 0 0 296px;
+    }
+    @include xs {
+      flex: 0 0 100%;
+    }
+  }
+  &section1__counter-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__body-text {
+    display: flex;
+  }
+  &section1__body-text.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 20px;
+    width: 77px;
+    min-width: 77px;
+    margin: 0.5px auto 0px;
+  }
+  &section1__hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type1;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+    @include lg {
+      align-items: center;
+      justify-content: center;
+      font-size: 53px;
+      text-align: center;
+    }
+    @include md {
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      text-align: center;
+    }
+    @include sm {
+      align-items: center;
+      justify-content: center;
+      font-size: 46px;
+      text-align: center;
+    }
+  }
+  &section1__hero-title.layout {
+    position: absolute;
+    height: 72px;
+    bottom: -51.5px;
+    width: 296px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+  }
+  &section1__coming-in {
+    display: flex;
+    justify-content: center;
+    font: $font_type2;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__coming-in.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__counter-column-spacer {
+    display: flex;
+    flex: 1 0 auto;
+    min-height: 51.5px;
+  }
+  &section1__counter-column-spacer1 {
+    display: flex;
+    flex: 1 0 auto;
+    min-height: 1px;
+  }
+  &section1__dhms {
+    display: flex;
+    justify-content: space-between;
+  }
+  &section1__dhms.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px 22px 0px 31px;
+  }
+  &section1__dhms-col {
+    display: flex;
+    flex: 0 1 29px;
+  }
+  &section1__days {
+    display: flex;
+    justify-content: center;
+    font: $font_type3;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__days.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__dhms-col1 {
+    display: flex;
+    flex: 0 1 35px;
+  }
+  &section1__hours {
+    display: flex;
+    justify-content: center;
+    font: $font_type3;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__hours.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__dhms-col2 {
+    display: flex;
+    flex: 0 1 30px;
+  }
+  &section1__mins {
+    display: flex;
+    justify-content: center;
+    font: $font_type3;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__mins.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__dhms-col3 {
+    display: flex;
+    flex: 0 1 23px;
+  }
+  &section1__sec {
+    display: flex;
+    justify-content: center;
+    font: $font_type3;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__sec.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section1__hero-counter-spacer {
+    display: flex;
+    flex: 0.4 1 auto;
+    @include sm {
+      flex: 0 0 calc(100% - 396px);
+    }
+    @include xs {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section1__hero-counter-col1 {
+    display: flex;
+    flex: 0 1 20px;
+    @include sm {
+      flex: 0 0 100px;
+    }
+    @include xs {
+      flex: 0 0 100%;
+    }
+  }
+  &section1__fav-icon {
+    width: 100%;
+    height: auto;
+  }
+  &site-row {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &bootstrap-grid {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &flex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    @include xxxl {
+      flex-wrap: wrap;
+    }
+  }
+  &flex-col {
+    display: flex;
+    flex: 0 1 346px;
+    @include xxxl {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  &big-title-box {
+    width: 100%;
+    height: 100%;
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  &big-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type4;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    @include md {
+      font-size: 29px;
+      text-align: left;
+    }
+    @include sm {
+      font-size: 25px;
+      text-align: left;
+    }
+  }
+  &big-title-span0 {
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+  }
+  &big-title-span1 {
+    font: $font_type6;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+  }
+  &highlights-box {
+    width: 100%;
+    height: 100%;
+  }
+  &highlights {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    word-break: normal;
+  }
+  &flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 64px;
+    @include xxxl {
+      flex: 0 0 20px;
+      min-width: unset;
+    }
+    @include lg {
+      flex: 0 0 100%;
+      min-width: unset;
+      min-height: 0px;
+    }
+  }
+  &flex-col1 {
+    display: flex;
+    flex: 0 1 543px;
+    @include xxxl {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &flex2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  &flex3 {
+    display: flex;
+    justify-content: center;
+    @include lg {
+      flex-wrap: wrap;
+    }
+  }
+  &flex3.layout {
+    position: relative;
+    overflow: visible;
+    flex: 1 1 auto;
+    min-height: 59px;
+    margin: 0px 3.58px;
+    @include xs {
+      min-height: 59px;
+      margin: 0px 10px;
+    }
+  }
+  &flex3-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include lg {
+      display: none;
+      flex: 0 0 20px;
+    }
+    @include md {
+      display: none;
+      flex: 0 0 calc(100% - Infinitypx);
+    }
+  }
+  &flex3-col {
+    display: flex;
+    flex: 0 1 77.67px;
+    @include lg {
+      flex: 0 0 calc(25% - 15px);
+    }
+    @include md {
+      flex: 0 0 77.67px;
+    }
+  }
+  &flex4 {
+    display: flex;
+  }
+  &flex4.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px 0px 1px;
+  }
+  &hero-title-box {
+    @include lg {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  &hero-title-box.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &hero-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: $font_type7;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    @include lg {
+      font-size: 45px;
+      text-align: left;
+    }
+    @include md {
+      font-size: 42px;
+      text-align: left;
+    }
+    @include sm {
+      font-size: 38px;
+      text-align: left;
+    }
+  }
+  &beds {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font: $font_type2;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &beds.layout {
+    position: relative;
+    margin: 29px 9.3px 9px 3.66px;
+  }
+  &flex3-spacer1 {
+    display: flex;
+    flex: 0 1 17.43px;
+    @include lg {
+      flex: 0 0 20px;
+    }
+    @include md {
+      flex: 0 0 50px;
+    }
+    @include sm {
+      flex: 0 0 20px;
+    }
+    @include xs {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &flex3-col1 {
+    display: flex;
+    flex: 0 1 87.67px;
+    @include lg {
+      flex: 0 0 calc(25% - 15px);
+    }
+    @include md {
+      flex: 0 0 87.67px;
+    }
+  }
+  &flex5 {
+    display: flex;
+  }
+  &flex5.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 1px 0px 0px;
+  }
+  &hero-title1-box {
+    @include lg {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  &hero-title1-box.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex5-spacer {
+    display: flex;
+    flex: 0 1 0.33px;
+  }
+  &flex5-col {
+    display: flex;
+    flex: 0 1 61.67px;
+  }
+  &baths {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type2;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &baths.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 29px 9px 9px 0px;
+  }
+  &flex3-spacer2 {
+    display: flex;
+    flex: 0 1 11.34px;
+    @include lg {
+      flex: 0 0 20px;
+    }
+    @include sm {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &flex3-col2 {
+    display: flex;
+    flex: 0 1 171.98px;
+    @include lg {
+      flex: 0 0 calc(25% - 15px);
+    }
+    @include md {
+      flex: 0 0 171.98px;
+    }
+  }
+  &flex6 {
+    display: flex;
+  }
+  &flex6.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px 0px 1px;
+  }
+  &hero-title2-box {
+    @include lg {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  &hero-title2-box.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex6-spacer {
+    display: flex;
+    flex: 0 1 0.02px;
+  }
+  &flex6-col {
+    display: flex;
+    flex: 0 1 56.98px;
+  }
+  &sqft {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type2;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &sqft.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 29px 11px 9px 0px;
+  }
+  &flex3-spacer3 {
+    display: flex;
+    flex: 0 1 11.68px;
+    @include lg {
+      flex: 0 0 20px;
+    }
+    @include md {
+      flex: 0 0 50px;
+    }
+    @include sm {
+      flex: 0 0 20px;
+    }
+    @include xs {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &flex3-col3 {
+    display: flex;
+    flex: 0 1 156.58px;
+    @include lg {
+      flex: 0 0 calc(25% - 15px);
+    }
+    @include md {
+      flex: 0 0 156.58px;
+    }
+  }
+  &flex7 {
+    display: flex;
+  }
+  &flex7.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px 0px 1px;
+  }
+  &hero-title3 {
+    font: $font_type7;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    @include lg {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 45px;
+      text-align: left;
+    }
+    @include md {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 42px;
+      text-align: left;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 38px;
+      text-align: left;
+    }
+  }
+  &hero-title3.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex7-spacer {
+    display: flex;
+    flex: 0 1 0.22px;
+  }
+  &flex7-col {
+    display: flex;
+    flex: 0 1 90.78px;
+  }
+  &acre-lot {
+    display: flex;
+    justify-content: flex-end;
+    font: $font_type2;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &acre-lot.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 29px 12.2px 9px 0px;
+  }
+  &flex3-spacer4 {
+    display: flex;
+    flex: 1 1 auto;
+    @include lg {
+      display: none;
+      flex: 0 0 20px;
+    }
+  }
+  &flex8 {
+    display: flex;
+    justify-content: center;
+  }
+  &flex8.layout {
+    position: relative;
+    overflow: visible;
+    flex: 1 1 auto;
+    min-height: 20px;
+    margin: 22px 115.54px 0px;
+    @include xs {
+      min-height: 20px;
+      margin: 25px 58px 0px;
+    }
+  }
+  &flex8-col {
+    display: flex;
+    flex: 0 1 88px;
+  }
+  &line {
+    background: $background_type0;
+  }
+  &line.layout {
+    position: relative;
+    height: 1.5px;
+    flex-grow: 1;
+    margin: 9.77px 0px 8.73px;
+  }
+  &flex8-spacer {
+    display: flex;
+    flex: 0 1 5px;
+  }
+  &flex8-col1 {
+    display: flex;
+    flex: 0 1 119px;
+  }
+  &highlights1 {
+    display: flex;
+    justify-content: center;
+    font: $font_type2;
+    color: $font_color_type3;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &highlights1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex8-spacer1 {
+    display: flex;
+    flex: 0 1 7px;
+  }
+  &line1 {
+    background: $background_type0;
+    border-style: solid;
+    border-color: $font_color_type3;
+  }
+  &line1.layout {
+    position: relative;
+    height: 1.5px;
+    flex-grow: 1;
+    margin: 10.27px 0px 8.23px;
+  }
+  &flex9 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    @include xxxl {
+      flex-wrap: wrap;
+    }
+  }
+  &flex9-col {
+    display: flex;
+    flex: 0 1 175px;
+    @include xxxl {
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    @include sm {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include xs {
+      flex: 0 0 100%;
+    }
+  }
+  &img {
+    width: 100%;
+    height: auto;
+  }
+  &flex9-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 20px;
+    }
+    @include xs {
+      display: flex;
+      flex: 0 0 100%;
+      min-height: 30px;
+    }
+  }
+  &flex9-col1 {
+    display: flex;
+    flex: 0 1 175px;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    @include sm {
+      display: flex;
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include xs {
+      display: flex;
+      flex: 0 0 100%;
+    }
+  }
+  &decorator {
+    width: 100%;
+    height: auto;
+  }
+  &flex9-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 20px;
+    }
+    @include sm {
+      display: none;
+      flex: 0 0 100%;
+      min-height: 30px;
+    }
+    @include xs {
+      display: flex;
+      flex: 0 0 100%;
+      min-height: 30px;
+    }
+  }
+  &flex9-col2 {
+    display: flex;
+    flex: 0 1 175px;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    @include sm {
+      display: flex;
+      flex: 0 0 100%;
+    }
+  }
+  &section3__container {
+    width: 100%;
+    height: 100%;
+  }
+  &section3__bootstrapGrid-item {
+    display: flex;
+  }
+  &section3__flex {
+    display: flex;
+    @include xxl {
+      flex-wrap: wrap;
+    }
+  }
+  &section3__flex.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 1px 0px 0px;
+    @include md {
+      flex-grow: 1;
+      margin: 25px 0px 0px;
+    }
+  }
+  &section3__flex-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxl {
+      display: none;
+      flex: 0 0 20px;
+    }
+    @include xl {
+      display: flex;
+      flex: 0 0 0px;
+    }
+  }
+  &section3__flex-col {
+    display: flex;
+    flex: 1 0 auto;
+    @include xxl {
+      flex: 0 0 50%;
+    }
+    @include xl {
+      flex: 0 0 100%;
+    }
+    @include md {
+      flex: 0 0 500px;
+    }
+    @include sm {
+      flex: 0 0 313px;
+    }
+  }
+  &section3__flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  &section3__flex1-row {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  &section3__group {
+    display: flex;
+    background-color: $font_color_type1;
+  }
+  &section3__group.layout {
+    position: relative;
+    overflow: visible;
+    height: 33.29px;
+    width: 99.37%;
+    min-width: min-content;
+    margin: 0px auto;
+    @include xs {
+      height: 33.29px;
+      width: 100%;
+      min-width: min-content;
+      margin: 0px auto;
+    }
+  }
+  &section3__request-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type8;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  &section3__flex1-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 10.51px;
+  }
+  &section3__flex1-row1 {
+    display: flex;
+    flex: 1 1 33.79px;
+  }
+  &section3__group.layout1 {
+    position: relative;
+    overflow: visible;
+    height: 33.29px;
+    width: 99.37%;
+    min-width: min-content;
+    margin: 0.49px auto 0px;
+    @include xs {
+      height: 33.29px;
+      width: 100%;
+      min-width: min-content;
+      margin: 0.49px auto 0px;
+    }
+  }
+  &section3__schedule-tour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type8;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+    margin: 0px;
+  }
+  &section3__schedule-tour.layout {
+    position: relative;
+    height: 30px;
+    width: 99.37%;
+    min-width: min-content;
+    margin: 0px auto;
+    @include xs {
+      height: 30px;
+      width: 100%;
+      min-width: min-content;
+      margin: 0px auto;
+    }
+  }
+  &section3__flex-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 2px;
+    @include xxl {
+      flex: 0 0 0px;
+      min-width: unset;
+    }
+    @include xl {
+      flex: 0 0 100%;
+      min-width: unset;
+      min-height: 2px;
+    }
+    @include md {
+      flex: 0 0 2px;
+      min-width: unset;
+    }
+    @include sm {
+      flex: 0 0 100%;
+      min-width: unset;
+      min-height: 2px;
+    }
+  }
+  &section3__flex-col1 {
+    display: flex;
+    flex: 1 1 300px;
+    @include xxl {
+      flex: 0 0 50%;
+    }
+    @include xl {
+      flex: 0 0 100%;
+    }
+    @include md {
+      flex: 0 0 542px;
+    }
+  }
+  &section3__flex2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    @include xxxl {
+      flex-wrap: wrap;
+    }
+  }
+  &section3__flex2-row {
+    display: flex;
+    flex: 1 1 36px;
+    @include xxxl {
+      flex: 0 0 25%;
+    }
+    @include sm {
+      flex: 0 0 6.25%;
+    }
+    @include xs {
+      flex: 0 0 calc(25% - 8.75px);
+    }
+  }
+  &section3__flex3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  &section3__flex3-spacer {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  &section3__line {
+    background-color: $font_color_type1;
+  }
+  &section3__line.layout {
+    position: relative;
+    flex: 1 1 auto;
+    height: 1px;
+    margin: 26.5px 0px 8.5px;
+  }
+  &section3__flex3-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    margin-left: 15px;
+  }
+  &section3__flex3-col {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 20px;
+  }
+  &section3__features {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font: $font_type9;
+    color: $font_color_type1;
+    text-align: right;
+    letter-spacing: 0px;
+    @include md {
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 29px;
+      text-align: right;
+    }
+    @include sm {
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 25px;
+      text-align: right;
+    }
+  }
+  &section3__features.layout {
+    position: relative;
+    min-height: 36px;
+    width: 129px;
+    min-width: 129px;
+    margin: 0px;
+  }
+  &section3__flex3-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    margin-left: 15px;
+  }
+  &section3__line.layout1 {
+    position: relative;
+    flex: 1 1 auto;
+    height: 1px;
+    width: 379px;
+    min-width: 379px;
+    margin: 26.5px 0px 8.5px;
+  }
+  &section3__flex2-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 0px;
+    }
+    @include lg {
+      display: none;
+      flex: 0 0 25%;
+    }
+    @include md {
+      display: flex;
+      flex: 0 0 0px;
+    }
+    @include xs {
+      display: flex;
+      flex: 0 0 5px;
+    }
+  }
+  &section3__flex2-row1 {
+    display: flex;
+    flex: 1 0 auto;
+    @include xxxl {
+      flex: 0 0 25%;
+    }
+    @include sm {
+      flex: 0 0 31.25%;
+    }
+    @include xs {
+      flex: 0 0 calc(25% - 8.75px);
+    }
+  }
+  &section3__flex4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    @include sm {
+      flex-wrap: wrap;
+    }
+  }
+  &section3__flex4-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include sm {
+      flex: 0 0 16.666666666666664%;
+    }
+    @include xs {
+      flex: 0 0 0px;
+    }
+  }
+  &section3__flex4-col {
+    display: flex;
+    flex: 1 1 100px;
+    @include sm {
+      flex: 0 0 16.666666666666664%;
+    }
+    @include xs {
+      flex: 0 0 25%;
+    }
+  }
+  &section3__heated-floors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__heated-floors.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__gated-community {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__gated-community.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__small-text-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__small-text-body.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__community-pool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__community-pool.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__flex2-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      flex: 0 0 0px;
+    }
+    @include xs {
+      flex: 0 0 15px;
+    }
+  }
+  &section3__flex2-row2 {
+    display: flex;
+    flex: 1 0 auto;
+    @include xxxl {
+      flex: 0 0 25%;
+    }
+    @include sm {
+      flex: 0 0 31.25%;
+    }
+    @include xs {
+      flex: 0 0 calc(25% - 8.75px);
+    }
+  }
+  &section3__flex5 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    @include sm {
+      flex-wrap: wrap;
+    }
+  }
+  &section3__flex5-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include sm {
+      flex: 0 0 16.666666666666664%;
+    }
+  }
+  &section3__flex5-col {
+    display: flex;
+    flex: 1 1 100px;
+    @include sm {
+      flex: 0 0 16.666666666666664%;
+    }
+  }
+  &section3__mountain-views {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__mountain-views.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__celebrity-access {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__celebrity-access.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__free-wifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type10;
+    color: $font_color_type1;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section3__free-wifi.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section3__flex5-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    @include sm {
+      flex: 0 0 16.666666666666664%;
+    }
+  }
+  &section3__flex2-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      display: flex;
+      flex: 0 0 0px;
+    }
+    @include md {
+      display: none;
+      flex: 0 0 0px;
+    }
+    @include sm {
+      display: flex;
+      flex: 0 0 0px;
+    }
+    @include xs {
+      display: flex;
+      flex: 0 0 15px;
+    }
+  }
+  &section3__flex2-row3 {
+    display: flex;
+    flex: 1 0 auto;
+    @include xxxl {
+      flex: 0 0 25%;
+    }
+    @include sm {
+      flex: 0 0 31.25%;
+    }
+    @include xs {
+      flex: 0 0 calc(25% - 8.75px);
+    }
+  }
+  &section3__flex6 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    @include md {
+      flex-wrap: wrap;
+    }
+  }
+  &section3__flex6-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include md {
+      flex: 0 0 16.666666666666664%;
+    }
+  }
+  &section3__flex6-col {
+    display: flex;
+    flex: 1 1 100px;
+    @include md {
+      flex: 0 0 16.666666666666664%;
+    }
+  }
+  &section3__flex-spacer2 {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxl {
+      display: none;
+      flex: 0 0 20px;
+    }
+    @include xl {
+      display: flex;
+      flex: 0 0 0px;
+    }
+    @include lg {
+      display: none;
+      flex: 0 0 100%;
+    }
+    @include md {
+      display: flex;
+      flex: 0 0 2px;
+    }
+  }
+  &section4__container {
+    width: 100%;
+    height: 100%;
+  }
+  &section4__bootstrapGrid-item {
+    display: flex;
+  }
+  &section4__flex {
+    display: flex;
+    justify-content: space-between;
+    @include lg {
+      flex-wrap: wrap;
+    }
+  }
+  &section4__flex.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 88.5px 341px 102px 0px;
+    @include md {
+      flex-grow: 1;
+      margin: 44px 171px 51px 0px;
+    }
+    @include sm {
+      flex-grow: 1;
+      margin: 25px 86px 26px 0px;
+    }
+    @include xs {
+      flex-grow: 1;
+      margin: 25px 43px 25px 0px;
+    }
+  }
+  &section4__flex-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include lg {
+      flex: 0 0 0px;
+    }
+  }
+  &section4__flex-col {
+    display: flex;
+    flex: 1 1 360px;
+    @include lg {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include md {
+      flex: 0 0 calc(50% - 2.5px);
+    }
+    @include sm {
+      flex: 0 0 100%;
+    }
+  }
+  &section4__flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &section4__flex1.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 150px;
+    width: 360px;
+    min-width: 360px;
+    margin: 0px auto;
+    @include xs {
+      min-height: 150px;
+      width: 270px;
+      min-width: 270px;
+      margin: 0px auto;
+    }
+  }
+  &section4__flex1-col {
+    display: flex;
+    flex: 0 1 150px;
+  }
+  &section4__img {
+    background: $background_type1;
+    border-radius: 75px 75px 75px 75px;
+  }
+  &section4__img.layout {
+    position: relative;
+    height: 150px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section4__flex1-col1 {
+    display: flex;
+    flex: 1 1 196px;
+  }
+  &section4__flex2 {
+    display: flex;
+    flex-direction: column;
+  }
+  &section4__flex2.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 17px 0px 43px;
+  }
+  &section4__highlights {
+    font: $font_type11;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+  }
+  &section4__highlights.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &section4__small-paragraph-body-box.layout {
+    position: relative;
+    margin: 12px 0px 0px;
+  }
+  &section4__small-paragraph-body {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type12;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &section4__flex-spacer1 {
+    display: flex;
+    flex: 1 1 30px;
+    @include lg {
+      flex: 0 0 20px;
+    }
+    @include md {
+      flex: 0 0 5px;
+    }
+    @include sm {
+      flex: 0 0 100%;
+      min-height: 5px;
+    }
+  }
+  &section4__flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &section4__flex3.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 150px;
+    width: 360px;
+    min-width: 360px;
+    margin: 0px auto;
+    @include xs {
+      min-height: 150px;
+      width: 270px;
+      min-width: 270px;
+      margin: 0px auto;
+    }
+  }
+  &section4__flex3-col {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 150px;
+  }
+  &section4__flex3-col1 {
+    display: flex;
+    flex: 1 1 196px;
+  }
+  &section4__flex4 {
+    display: flex;
+    flex-direction: column;
+  }
+  &section4__flex4.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 21px 0px 39px;
+  }
+  &section4__small-paragraph-body1-box.layout {
+    position: relative;
+    margin: 12px 0px 0px;
+  }
+  &section5__map-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section5__image {
+    background: $background_type1;
+    border: 4px solid rgb(0, 0, 0);
+  }
+  &section5__image.layout {
+    position: relative;
+    height: 349px;
+    flex-grow: 1;
+    margin: 23px 243px;
+    @include lg {
+      height: 349px;
+      flex-grow: 1;
+      margin: 25px 122px;
+    }
+    @include md {
+      height: 349px;
+      flex-grow: 1;
+      margin: 25px 61px;
+    }
+    @include sm {
+      height: 349px;
+      flex-grow: 1;
+      margin: 25px 31px;
+    }
+    @include xs {
+      height: 349px;
+      flex-grow: 1;
+      margin: 25px 16px;
+    }
+  }
+  &section6__form-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  &section6__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &section6__flex.layout1 {
+    position: relative;
+    overflow: visible;
+    width: 538px;
+    min-width: 538px;
+    margin: 64px auto 43px;
+    @include lg {
+      width: 538px;
+      min-width: 538px;
+      margin: 32px auto 25px;
+    }
+    @include md {
+      width: 538px;
+      min-width: 538px;
+      margin: 25px auto;
+    }
+    @include sm {
+      width: 404px;
+      min-width: 404px;
+      margin: 25px auto;
+    }
+    @include xs {
+      width: 303px;
+      min-width: 303px;
+      margin: 25px auto;
+    }
+  }
+  &section6__big-title {
+    display: flex;
+    justify-content: center;
+    font: $font_type9;
+    color: $font_color_type3;
+    text-align: center;
+    letter-spacing: 0px;
+    @include md {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 29px;
+      text-align: center;
+    }
+    @include sm {
+      align-items: flex-start;
+      justify-content: center;
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+  &section6__big-title.layout {
+    position: relative;
+    flex: 0 0 auto;
+    width: 234px;
+    min-width: 234px;
+    margin: 0px auto;
+  }
+  &section6__flex.layout {
+    position: relative;
+    overflow: visible;
+    flex: 0 0 auto;
+    margin: 19px 0px 0px;
+    @include xs {
+      margin: 25px 0px 0px;
+    }
+  }
+  &section6__flex2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  &section6__flex2.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px 0px 2px;
+    @include xs {
+      margin: 0px 0px 25px;
+    }
+  }
+  &section6__flex2-col {
+    display: flex;
+    flex: 0 1 267px;
+  }
+  &section6__first-name-wrap {
+    display: flex;
+  }
+  &section6__first-name-wrap.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section6__rect {
+    background-color: $font_color_type0;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  &section6__rect.layout {
+    position: absolute;
+    top: 0px;
+    height: 45px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+    margin: 0px;
+  }
+  &section6__first-name {
+    display: flex;
+    align-items: center;
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  &section6__first-name.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 13px 13px 12px;
+  }
+  &section6__last-name-wrap {
+    display: flex;
+  }
+  &section6__last-name-wrap.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &section6__last-name {
+    display: flex;
+    align-items: center;
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  &section6__last-name.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 13px 9px 12px;
+  }
+  &section6__email-address-wrap {
+    display: flex;
+  }
+  &section6__email-address-wrap.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    margin: 3px 0px 2px;
+    @include xs {
+      min-height: 45px;
+      margin: 25px 0px;
+    }
+  }
+  &section6__email-address {
+    display: flex;
+    align-items: center;
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  &section6__email-address.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 13px 13px 12px;
+    @include xs {
+      flex-grow: 1;
+      margin: 25px 10px;
+    }
+  }
+  &section6__phone-wrap {
+    display: flex;
+  }
+  &section6__phone-wrap.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    margin: 3px 0px 1px;
+    @include xs {
+      min-height: 45px;
+      margin: 25px 0px;
+    }
+  }
+  &section6__phone {
+    display: flex;
+    align-items: center;
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  &section6__phone.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 13px 13px 12px;
+    @include xs {
+      flex-grow: 1;
+      margin: 25px 10px;
+    }
+  }
+  &section6__flex1-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 20px;
+  }
+  &section6__flex1-row {
+    display: flex;
+  }
+  &section6__group {
+    display: flex;
+    background-color: $font_color_type3;
+  }
+  &section6__group.layout {
+    position: relative;
+    overflow: visible;
+    height: 30px;
+    width: 104px;
+    min-width: 104px;
+    margin: 0px 1px 0px auto;
+  }
+  &section6__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: $font_type8;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  &section7__suggest-container {
+    width: 100%;
+    height: 100%;
+  }
+  &section7__bootstrapGrid-item {
+    display: flex;
+  }
+  &section7__flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    @include xxxl {
+      flex-wrap: wrap;
+    }
+  }
+  &section7__flex-col {
+    display: flex;
+    flex: 1 1 auto;
+    @include xxxl {
+      flex: 0 0 calc(25% - 135.75px);
+    }
+    @include sm {
+      flex: 0 0 calc(10% - 6.666666666666667px);
+    }
+    @include xs {
+      flex: 0 0 calc(10% - 3.3333333333333335px);
+    }
+  }
+  &section7__image {
+    background: $background_type0;
+    width: 100%;
+    height: 100%;
+  }
+  &section7__flex-spacer {
+    display: flex;
+    flex: 1 1 auto;
+    @include xxxl {
+      flex: 0 0 calc(25% - 135.75px);
+    }
+    @include sm {
+      flex: 0 0 10px;
+    }
+    @include xs {
+      flex: 0 0 5px;
+    }
+  }
+  &section7__flex-col1 {
+    display: flex;
+    flex: 0 0 auto;
+    @include xxxl {
+      flex: 0 0 543px;
+    }
+    @include sm {
+      flex: 0 0 calc(50% - 6.666666666666667px);
+    }
+    @include xs {
+      flex: 0 0 calc(50% - 3.3333333333333335px);
+    }
+  }
+  &section7__flex1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    @include sm {
+      flex-wrap: wrap;
+    }
+  }
+  &section7__flex1-col {
+    display: flex;
+    flex: 0 1 175px;
+    @include sm {
+      flex: 0 0 100%;
+    }
+  }
+  &section7__img {
+    width: 100%;
+    height: auto;
+  }
+  &section7__flex1-spacer {
+    display: flex;
+    flex: 0 0 auto;
+    @include sm {
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section7__flex1-col1 {
+    display: flex;
+    flex: 0 1 175px;
+    @include sm {
+      display: flex;
+      flex: 0 0 100%;
+    }
+  }
+  &section7__flex1-spacer1 {
+    display: flex;
+    flex: 0 0 auto;
+    @include sm {
+      display: none;
+      flex: 0 0 100%;
+      min-height: 20px;
+    }
+  }
+  &section7__flex1-col2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 175px;
+    @include sm {
+      display: none;
+      flex: 0 0 100%;
+      min-width: unset;
+    }
+  }
+  &section8__footer {
+    display: flex;
+    background-color: rgb(103, 103, 103);
+  }
+  &section8__footer.layout {
+    position: relative;
+    overflow: visible;
+    flex: 1 1 auto;
+    min-height: 319px;
+    margin: 0px;
+  }
+  &section8__group {
+    display: flex;
+  }
+  &section8__group.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 20px;
+    width: 67px;
+    min-width: 67px;
+    margin: 135px auto 164px;
+    @include lg {
+      min-height: 20px;
+      width: 67px;
+      min-width: 67px;
+      margin: 68px auto 82px;
+    }
+    @include md {
+      min-height: 20px;
+      width: 67px;
+      min-width: 67px;
+      margin: 34px auto 41px;
+    }
+    @include sm {
+      min-height: 20px;
+      width: 67px;
+      min-width: 67px;
+      margin: 25px auto;
+    }
+  }
+  &section8__footer1 {
+    display: flex;
+    justify-content: center;
+    font: $font_type2;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section8__footer1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+}
